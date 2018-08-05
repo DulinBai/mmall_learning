@@ -1,0 +1,34 @@
+*.class
+
+#package file
+#*.jar 没写进去原因是要用支付宝
+*.war
+*.ear
+
+#kdiff3 ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpath
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.tmp
+*.patch
+
+#system ignore
+.DS_Store
+Thumbs.db
